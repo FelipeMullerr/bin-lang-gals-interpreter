@@ -26,8 +26,8 @@ numero: [0-1]+
 variavel: [a-zA-Z]+
 ```
 ---
-
 ## Gramática da Linguagem
+```
 <listar_comandos> ::= <comando> <listar_comandos> | <comando>;
 <comando> ::= <atribuicao_var> fim | <show> fim;
 <atribuicao_var> ::= <nome_var> igual <D> #11;
@@ -39,6 +39,7 @@ variavel: [a-zA-Z]+
 <nome_var> ::= variavel #10;
 <var_expr> ::= variavel #2;
 <numero> ::= numero #1;
+```
 
 ---
 
