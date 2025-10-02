@@ -1,4 +1,4 @@
-# Bin Language - GALS Interpreter
+# Implementação de Gramática e Interpretador utilizando GALs
 
 ## Descrição
 Este projeto implementa a gramática e o interpretador de uma linguagem binária utilizando o **GALs (Generator of Analyzers for Lex and Syntax).**
